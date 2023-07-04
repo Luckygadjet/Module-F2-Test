@@ -1,0 +1,86 @@
+body{
+    background-color: black !important;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    line-height: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.heading img {
+    width: 50px; /* Adjust the width as desired */
+    height: 50px; /* Adjust the height as desired */
+   
+    align-items: center; /* Adjust the margin as desired */
+  }
+  .heading h2 {
+    font-size: 44px;
+    color: crimson; /* Adjust the font size as desired */
+  }
+label {
+    color: red;
+    margin-left: 20px; /* Replace with your desired text color */
+  }
+.first .form-control {
+    width: 200px;
+    margin-top:20px; /* Adjust the width to your desired length */
+  }
+  #name ,#email{
+    width: 400px;
+    margin-left: 20px;
+  }
+  #Age{
+    margin-left: 20px;
+    width:400px;
+  }
+  #Degree{
+    margin-left: 20px;
+    width: 400px;
+  }
+  .first .add:hover{
+   
+    background-color: green !important;
+    color:white;
+  }
+  .add{
+    margin-top: 20px;
+    margin-left: 20px;
+    width:300px;
+    padding:5px;
+    border-radius:10px;
+  }
+  .search{
+    margin-top: 50px;
+    
+  }
+  #search_bar{
+    width:900px;
+    margin-left:20px;
+    border-radius: 20px;
+    padding:5px;
+  }
+  .search_button{
+    width:300px;
+    padding:5px;
+  }
+  .search_button:hover{
+    background-color: darkviolet;
+  }
+  .action-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Color the edit icon blue */
+  .edit-icon {
+    color: blue;
+  }
+  
+  /* Color the delete icon red */
+  .delete-icon {
+    color: red;
+  }
+
+
