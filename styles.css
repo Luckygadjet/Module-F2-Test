@@ -1,6 +1,9 @@
 body{
     background-color: black !important;
 }
+table {
+  border: 1px solid white;
+}
 .heading {
     display: flex;
     align-items: center;
